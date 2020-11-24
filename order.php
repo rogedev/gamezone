@@ -36,37 +36,36 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <a class="navbar-brand mx-auto" href="index.html">GameZone</a>
-
+        <a class="navbar-brand mx-auto" href="index.php">GameZone</a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html#inicio">Inicio</a>
+                    <a class="nav-link" href="index.php#inicio">Inicio</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html#about">Nosotros</a>
+                    <a class="nav-link" href="index.php#about">Nosotros</a>
                 </li>
 
                 <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true">Productos</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="market_pcgaming.html">PC Gaming</a>
-                        <a class="dropdown-item" href="market_consoles.html">Consolas</a>
-                        <a class="dropdown-item" href="market_accesories.html">Accesorios</a>
+                        <a class="dropdown-item" href="market_pcgaming.php">PC Gaming</a>
+                        <a class="dropdown-item" href="market_consoles.php">Consolas</a>
+                        <a class="dropdown-item" href="market_accesories.php">Accesorios</a>
                     </div>
                 </li>
 
             </ul>
         </div>
-        <a class="carrito" href="order.html" target="_blank">
+        <a class="carrito" href="order.php" target="_blank">
             <svg width="4em" height="2em" viewBox="0 0 16 16" class="bi bi-bag" fill="white"
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd"
