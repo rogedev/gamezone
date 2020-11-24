@@ -1,0 +1,191 @@
+/* generales */
+
+body {
+	font-family: 'Oswald', sans-serif;
+	overflow-x: hidden;
+}
+
+nav.navbar {
+	background: rgba(0, 0, 0, 0.8);
+	letter-spacing: 5px;
+}
+
+.navbar-text {
+	background: white;
+}
+
+.navbar-brand:hover {
+	border-bottom: .5px solid white;
+}
+
+.nav-link:hover {
+	border-bottom: .5px solid white;
+	color: white;
+}
+
+.dropdown:hover>.dropdown-menu {
+	display: block;
+}
+
+.dropdown-item:hover {
+	border-bottom: .5px solid black;
+}
+
+.video-background {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.caption {
+	color: white;
+	position: absolute;
+	top: 20%;
+	width: 100%;
+}
+
+.caption h1 {
+	letter-spacing: 5px;
+	font-size: 3rem;
+	font-weight: 700;
+	text-shadow: 1.rem 1.rem 8.rem black;
+}
+
+.caption h3 {
+	letter-spacing: 5px;
+	font-size: 2rem;
+	text-shadow: 1.rem 1.rem 8.rem black;
+
+}
+
+.caption .btn-lg {
+	border-width: medium;
+	border-radius: 0;
+	font-size: 2rem;
+}
+
+
+.banner .btn-lg {
+	position: absolute;
+	border-radius: 0;
+	left: 39%;
+	top: 40%;
+}
+
+
+@media (max-width: 768px) {
+	.navbar-brand {
+		position: absolute;
+		left: 38%;
+		top: 10px;
+	}
+
+	.carrito {
+		position: absolute;
+		left: 85%;
+		top: 10px;
+	}
+
+	.caption h1 {
+		letter-spacing: 2.5px;
+		font-size: 3rem;
+	}
+
+	.caption h3 {
+		letter-spacing: 2.5px;
+		font-size: 1.5rem;
+	}
+
+	.caption .btn-lg {
+
+		font-size: 1.5rem;
+	}
+
+	.banner .btn-lg {
+		position: absolute;
+		border-radius: 0;
+		left: 36%;
+		top: 40%;
+	}
+}
+
+
+@media (max-width: 400px) {
+	.carrito {
+		position: absolute;
+		left: 75%;
+		top: 10px;
+	}
+}
+
+/*accesorios */
+#myTab {
+	border: 1px solid #ccc;
+	background-color: #eeeeee;
+}
+
+#myTab .nav-item {
+	background-color: #cccc;
+	border: none;
+	transition: 0.3s;
+	font-size: 1.5em;
+	color: black;
+}
+
+#myTab .nav-item:hover {
+	background-color: #89beb3;
+
+}
+
+.tab-content {
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+
+.card {
+	padding-bottom: 5px;
+	width: 100%;
+
+}
+
+.inner {
+	overflow: hidden;
+}
+
+.inner img {
+	transition: all 1.5s ease;
+}
+
+.inner img:hover {
+	transform: scale(1.5);
+}
+
+#teclados .card img {
+	height: 150px;
+}
+
+#mouses .card img {
+	height: 300px;
+}
+
+#pcgaming .card img {
+	height: 400px:
+}
+
+.imgorder {
+	position: relative;
+	left: 33%;
+	width: 400px;
+	height: 400px;
+}
+
+
+
+@media (max-width: 768px) {
+	.imgorder {
+		left: 5%;
+	}
+}
