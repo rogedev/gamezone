@@ -33,7 +33,7 @@
 	<!--Fonts-->
 	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 
-	<title> Market | Consoles </title>
+	<title> Market | PC </title>
 </head>
 
 <body>
@@ -45,29 +45,30 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<a class="navbar-brand mx-auto" href="index.php">GameZone</a>
+		<a class="navbar-brand mx-auto" href="index.html">GameZone</a>
+
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="index.php#inicio">Inicio</a>
+					<a class="nav-link" href="index.html#inicio">Inicio</a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="index.php#about">Nosotros</a>
+					<a class="nav-link" href="index.html#about">Nosotros</a>
 				</li>
 
 				<li class="nav-item dropdown active">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 						data-toggle="dropdown" aria-haspopup="true">Productos</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="market_pcgaming.php">PC Gaming</a>
-						<a class="dropdown-item" href="market_consoles.php">Consolas</a>
-						<a class="dropdown-item" href="market_accesories.php">Accesorios</a>
+						<a class="dropdown-item" href="market_pcgaming.html">PC Gaming</a>
+						<a class="dropdown-item" href="market_consoles.html">Consolas</a>
+						<a class="dropdown-item" href="market_accesories.html">Accesorios</a>
 					</div>
 				</li>
 
 			</ul>
 		</div>
-		<a class="carrito" href="order.php" target="_blank">
+		<a class="carrito" href="order.html" target="_blank">
 			<svg width="4em" height="2em" viewBox="0 0 16 16" class="bi bi-bag" fill="white"
 				xmlns="http://www.w3.org/2000/svg">
 				<path fill-rule="evenodd"
@@ -79,49 +80,52 @@
 		<div class="video-wrap">
 			<div id="videobg">
 				<video id="bg" autoplay loop muted playsinline>
-					<source src="media/video/videobgconsoles.mp4" alt="Video de videojuegos">
+					<source src="media/video/videobgpcgaming.mp4" alt="Video de videojuegos">
 				</video>
 			</div>
 		</div>
 	</div>
 	<div class="caption text-center bg-transparent">
-		<h1>Las Mejores Consolas de Videojuegos</h1>
-		<h3>Encuentra aqui los mas nuevos lanzamientos
+		<h1>Las Mejores PC gamig del mercado</h1>
+		<h3>Nuestras PC contienen los mejores componentes para un mayor rendimiento
 		</h3>
 		<br>
-		<a class="btn btn-outline-light btn-lg" href="#consolas">Ver mas</a>
+		<a class="btn btn-outline-light btn-lg" href="#pcgaming">Ver mas</a>
 	</div>
 
-	<main id="consolas">
+	<main id="pcgaming">
 		<hr class="featurette-divider">
 		<div class="row featurette">
 			<div class="col-md-7">
-				<h2 class="featurette-heading">Xbox Series X </h2>
-				<p class="lead">Presentamos Xbox Series X, la consola Xbox más rápida y potente de la historia. Juega
-					miles de títulos de cuatro generaciones de consolas: todos los juegos se ven mejor y se juegan mejor
-					en Xbox Series X.
-					En el corazón de la Serie X se encuentra la Xbox Velocity Architecture, que combina una unidad SSD
-					personalizada y software integrado para disminuir significativamente los tiempos de carga dentro y
-					fuera del juego. Simultáneamente muévete sin problemas entre varios juegos en un instante con Quick
-					Resume. Explora mundos nuevos y disfruta de la acción como nunca con los incomparables 12 teraflops
-					de potencia de procesamiento de gráficos.</p>
-
+				<h2 class="featurette-heading">PC Gamer Delios 60i</h2>
+				<p class="lead">Una PC Gamer Delios 60i es un arma que aprovecharás en el campo de batalla, ya sea
+					jugando títulos de última generación con muy buen nivel gráfico, o en escenarios competitivos de
+					eSports a nivel profesional. Aniquila a tus rivales.
+					<ul>
+						<li>RTX 2060 Super 8GB</li>
+						<li>Intel i5 9400F</li>
+						<li>16GB DDR4</li>
+						<li>HDD 1TB</li>
+					</ul>
+				</p>
 			</div>
 			<div class="banner col-md-5">
 				<div class="card shadow">
 					<div class="inner">
-						<a href="https://www.youtube.com/watch?v=0tUqIHwHDEc" target="_bank">
-							<img class="card-img-top" src="media/img/consolas/xbox.jpeg" alt="Xbox Series X">
+						<a href="https://spartangeek.com/pc/delios-60i" target="_bank">
+							<img class="card-img-top" src="media/img/pc/delios60i.png" alt="PC Delios 60i">
 						</a>
 					</div>
 					<div class="card-body">
-						<h1 class="card-title">$499.99</h1>
-						<form action="" method="post">
+						<h1 class="card-title">$1,500</h1>
+						<form action="scripts/cart.php" method="post">
 							<div class="input-group">
 								<div class="input-group-prepend">
 									<label class="input-group-text" for="inputGroupSelect01">Cantidad</label>
 								</div>
-								<input class="input-group-addon" type="number" value="1" min="0" max="30">
+								<input hidden name="name" type="text" value="Delios 60i">
+								<input hidden name="price" type="number" value="1500">
+								<input class="input-group-addon" name="quantity" type="number" value="1" min="0" max="30">
 								<div class="input-group-append">
 									<button class="btn btn-outline-danger" type="submit">Añadir al
 										carrito</button>
@@ -135,28 +139,35 @@
 		<hr class="featurette-divider">
 		<div class="row featurette">
 			<div class="col-md-7 order-md-2">
-				<h2 class="featurette-heading">Play Station 5</h2>
-				<p class="lead">Velocidad sorprendente: Disfruta de la potencia de una CPU, una GPU y una SSD
-					personalizadas con E/S integradas que redefinirán lo que una consola PlayStation puede hacer.
-					Inmersión impresionante: Descubre una experiencia de juego más inmersiva con soporte para
-					retroalimentación háptica, gatillos adaptables y tecnología de audio en 3D.
-					Juegos asombrosos: Maravíllate con asombrosos gráficos y descubre las nuevas funciones de PS5.</p>
+				<h2 class="featurette-heading">PC Gamer Delios 70i</h2>
+				<p class="lead">Una PC Gamer Delios 70i es un arma que aprovecharás en el campo de batalla, ya sea
+					jugando títulos de última generación con muy buen nivel gráfico, o en escenarios competitivos de
+					eSports a nivel profesional. Aniquila a tus rivales.
+					<ul>
+						<li>RTX 2070 8GB</li>
+						<li>Intel i5 9400F</li>
+						<li>16GB DDR4</li>
+						<li>HDD 2TB</li>
+						<li>SSD 480GB</li>
+					</ul>
+
+				</p>
 			</div>
 			<div class="banner col-md-5 order-md-1">
 				<div class="card shadow">
 					<div class="inner">
-						<a href="https://www.youtube.com/watch?v=RkC0l4iekYo" target="_bank">
-							<img class="card-img-top" src="media/img/consolas/ps5.jpg" alt="Play Station 5">
+						<a href="https://spartangeek.com/pc/delios-70i" target="_bank">
+							<img class="card-img-top" src="media/img/pc/delios70i.png" alt="PC Delios 70i">
 						</a>
 					</div>
 					<div class="card-body">
-						<h1 class="card-title">$499</h1>
-						<form action="" method="post">
+						<h1 class="card-title">$1,800</h1>
+						<form action="scripts/cart.php" method="post">
 							<div class="input-group">
 								<div class="input-group-prepend">
 									<label class="input-group-text" for="inputGroupSelect01">Cantidad</label>
 								</div>
-								<input class="input-group-addon" type="number" value="1" min="0" max="30">
+								<input class="input-group-addon" name="quantity" type="number" value="1" min="0" max="30">
 								<div class="input-group-append">
 									<button class="btn btn-outline-danger" type="submit">Añadir al
 										carrito</button>
@@ -171,29 +182,34 @@
 		<hr class="featurette-divider">
 		<div class="row featurette">
 			<div class="col-md-7">
-				<h2 class="featurette-heading">Nintendo Switch</h2>
-				<p class="lead">Presentamos Nintendo Switch, el nuevo sistema de videojuego para el hogar de Nintendo;
-					además de proporcionar emociones únicas y multijugador en casa, el sistema Nintendo Switch se puede
-					llevar mientras viaja para que los jugadores puedan disfrutar de una experiencia de consola completa
-					en cualquier momento y en cualquier lugar</p>
+				<h2 class="featurette-heading">PC Gamer Thanos 2080i</h2>
+				<p class="lead">Una PC Gamer Thanos 2080i jamás te dejará limitado para realizar desafíos de alto
+					desempeño. Una computadora creada para intimidar a tus rivales.
+					<ul>
+						<li>RTX 2080 8GB</li>
+						<li>Intel i7 9700K</li>
+						<li>16GB DDR4</li>
+						<li>HDD 1TB</li>
+					</ul>
+				</p>
 			</div>
 			<div class="banner col-md-5">
 				<div class="card shadow">
 					<div class="inner">
-						<a href="https://www.youtube.com/watch?v=f5uik5fgIaI" target="_bank">
-							<img class="card-img-top" src="media/img/consolas/nswitch.jpg" alt="Nintendo Switch">
+						<a href="https://spartangeek.com/pc/thanos-2080i" target="_bank">
+							<img class="card-img-top" src="media/img/pc/thanos.png" alt="Pc gamer Thanos">
 						</a>
 					</div>
 					<div class="card-body">
-						<h1 class="card-title">$499</h1>
-						<form action="" method="post">
+						<h1 class="card-title">$3,500</h1>
+						<form action="scripts/cart.php" method="post">
 							<div class="input-group">
 								<div class="input-group-prepend">
 									<label class="input-group-text" for="inputGroupSelect01">Cantidad</label>
 								</div>
 								<input class="input-group-addon" type="number" value="1" min="0" max="30">
 								<div class="input-group-append">
-									<button class="btn btn-outline-danger" type="submit">Añadir al
+									<button class="btn btn-outline-danger" name="quantity" type="submit">Añadir al
 										carrito</button>
 								</div>
 							</div>
@@ -202,9 +218,7 @@
 				</div>
 			</div>
 		</div>
-
 	</main>
-
 
 	<footer class="container">
 		<p class="float-right"><a href="#">Back to top</a></p>
