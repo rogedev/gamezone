@@ -129,7 +129,7 @@
 										</div>
 									</div>
 									<p class="card-text">RGB LED 60% Double Shot PBT Mechanical Keyboard</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -163,7 +163,7 @@
 										</div>
 									</div>
 									<p class="card-text">RGB LED 60% Double Shot PBT Mechanical Keyboard</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -197,7 +197,7 @@
 										</div>
 									</div>
 									<p class="card-text">PD Double Shot PBT Mechanical Keyboard</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -234,7 +234,7 @@
 										</div>
 									</div>
 									<p class="card-text">RGB LED 60% Double Shot PBT Mechanical Keyboard</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -268,7 +268,7 @@
 										</div>
 									</div>
 									<p class="card-text">RGB LED TKL Dye Sub PBT Mechanical Keyboard</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -304,7 +304,7 @@
 										</div>
 									</div>
 									<p class="card-text">Vintage 60% Mechanical Keyboard</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -344,7 +344,7 @@
 										</div>
 									</div>
 									<p class="card-text">Mouse gaming LIGHTSYNC</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -378,7 +378,7 @@
 										</div>
 									</div>
 									<p class="card-text">Mouse gaming HERO</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -412,7 +412,7 @@
 										</div>
 									</div>
 									<p class="card-text">Mouse gaming inalambrico LIGHTSPEED</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -447,7 +447,7 @@
 										</div>
 									</div>
 									<p class="card-text">Mouse gaming inalambrico LIGHTSPEED</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -481,7 +481,7 @@
 										</div>
 									</div>
 									<p class="card-text">Mouse gaming inalambrico LIGHTSPEED HERO</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -515,7 +515,7 @@
 										</div>
 									</div>
 									<p class="card-text">Mouse gaming inalambrico LIGHTSPEED HERO</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -555,7 +555,7 @@
 									</div>
 									<p class="card-text">Audífonos Bluetooth Gamer Inalámbricos Plegables con Micrófono,
 										Sonido Estéreo HD</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -591,7 +591,7 @@
 									</div>
 									<p class="card-text">Audífonos Gamer Sonido High Definition con Micrófono, Control
 										de Volumen y Luz LED, AUX 3.5mm</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -627,7 +627,7 @@
 									</div>
 									<p class="card-text">Audífonos Gamer Sonido HD Estéreo 360°, Micrófono de
 										Cancelación de Ruido y Luz LED</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -665,7 +665,7 @@
 									</div>
 									<p class="card-text">Audífonos tipo Diadema Over-Ear Plegables Sonido High
 										Definition, Manos Libres, Cable Auxiliar 3.5mm</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -701,7 +701,7 @@
 									</div>
 									<p class="card-text">Audífonos Bluetooth Inalámbricos HD tipo Diadema, Manos Libres,
 										Batería de Larga Duración, Aux 3.5mm</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"
@@ -737,7 +737,7 @@
 									</div>
 									<p class="card-text">Audífonos Bluetooth Inalámbricos HD, Plegables Tipo Diadema,
 										Manos Libres, Batería Recargable</p>
-									<form action="" method="get">
+									<form action="" method="post">
 										<div class="input-group mb-3">
 											<div class="input-group-prepend">
 												<label class="input-group-text"

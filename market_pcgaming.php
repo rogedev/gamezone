@@ -117,7 +117,7 @@
 					</div>
 					<div class="card-body">
 						<h1 class="card-title">$1,500</h1>
-						<form action="" method="get">
+						<form action="" method="post">
 							<div class="input-group">
 								<div class="input-group-prepend">
 									<label class="input-group-text" for="inputGroupSelect01">Cantidad</label>
@@ -159,7 +159,7 @@
 					</div>
 					<div class="card-body">
 						<h1 class="card-title">$1,800</h1>
-						<form action="" method="get">
+						<form action="" method="post">
 							<div class="input-group">
 								<div class="input-group-prepend">
 									<label class="input-group-text" for="inputGroupSelect01">Cantidad</label>
@@ -199,7 +199,7 @@
 					</div>
 					<div class="card-body">
 						<h1 class="card-title">$3,500</h1>
-						<form action="" method="get">
+						<form action="" method="post">
 							<div class="input-group">
 								<div class="input-group-prepend">
 									<label class="input-group-text" for="inputGroupSelect01">Cantidad</label>

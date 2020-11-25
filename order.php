@@ -101,7 +101,7 @@
                     </ul>
                 </div>
                 <div class="col-md-8 order-md-1">
-                    <form class="needs-validation" novalidate>
+                    <form action="" method="post" class="needs-validation" novalidate>
                         <h3 class="mb-3">Tus datos</h3>
                         <div class="row">
                             <div class="col-md-6 mb-3">
