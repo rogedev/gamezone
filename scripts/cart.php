@@ -1,5 +1,5 @@
 <?php
-//array a contains the article atributes
+//class for generate a new item on the cart
 class Product{
 
     public $name;
@@ -12,21 +12,24 @@ class Product{
         $this->quantity = $quantity;
         $this->price = $price;
     }
+    //get the total price of the product quantity
     public function getTotal(){
         return $this->total = $this->quantity*$this->price;
 
     }
+    //return item info
     public function getInfo(){
         $info = "<h1>Informacion del producto:</h1>";
         $info.= "Producto: ".$this->name;
         $info.= "<br/>Cantidad: ".$this->quantity;
         $info.= "<br/> Total: ".$this->getTotal();
-
         return $info;
     }
 
 }
-$a = new Product($_POST["name"],$_POST["quantity"],$_POST["price"]);
-echo $a->getInfo();
 
+$a = new Product($_POST["name"],$_POST["quantity"],$_POST["price"]);
+for ($i=0; $i < 2 ; $i++) {
+    echo $a->getInfo();
+}
 ?>
