@@ -29,7 +29,7 @@ class Product{
 }
 
 $a = new Product($_POST["name"],$_POST["quantity"],$_POST["price"]);
-for ($i=0; $i < 2 ; $i++) {
+
     echo $a->getInfo();
-}
+
 ?>
