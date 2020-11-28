@@ -1,5 +1,5 @@
 <?php
-//incluye la clase Libro y CrudLibro
+
 require_once('crud.php');
 require_once('order.php');
 $crud=new Crud();

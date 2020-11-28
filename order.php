@@ -1,3 +1,7 @@
+<?php
+require_once('crud/product.php');
+$product = new Product();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -87,10 +91,10 @@
                     <ul class="list-group mb-3">
                         <li class="list-group-item d-flex justify-content-between lh-condensed">
                             <div>
-                                <h6 class="my-0">Producto</h6>
-                                <small class="text-muted">breve descripcion</small>
+                                <h6 class="my-0"><?php echo $product->getName() ?></h6>
+                                <small class="text-muted"><?php echo $product->getQuantity() ?></small>
                             </div>
-                            <span class="text-muted">$12</span>
+                            <span class="text-muted"><?php echo $product->getTotalPrice() ?></span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between">
                             <span>Total (USD)</span>

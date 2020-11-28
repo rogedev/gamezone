@@ -2,10 +2,14 @@
 
 require_once('crud.php');
 require_once('order.php');
+require_once('product.php');
+require_once('cart.php');
 
-$crud= new Crud();
-$order= new Order();
+$crud=  new Crud();
+$order = new Order();
+$product = new Product();
 
+//este c
 
 	if (isset($_POST['insertar'])) {
 		$order->setFirstName($_POST['firstName']);
@@ -39,5 +43,14 @@ $order= new Order();
 
 	}elseif($_GET['accion']=='a'){
 		header('Location: actualizar.php');
+
+	}elseif(isset($_POST['agregar'])){
+		//para agregar al carrito
+
+		$product->setName($_POST['name']);
+        $product->setPrice($_POST['price']);
+        $product->setQuantity($_POST['quantity']);
+		//funcion aqui falta
+		header('Location: /gamezone/order.php');
 	}
 ?>

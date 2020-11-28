@@ -1,4 +1,5 @@
 <?php
+//objeto para la conexion con la base de datos
 	class  Db{
 		private static $conexion=NULL;
 		private function __construct (){}
