@@ -15,6 +15,14 @@ $order= new Order();
 		$crud->insertar($order);
 		header('Location: index.php');
 
+	}elseif(isset($_POST['pagar'])){
+		$order->setFirstName($_POST['firstName']);
+        $order->setLastName($_POST['lastName']);
+        $order->setEmail($_POST['email']);
+        $order->setAddress($_POST['address']);
+		$crud->insertar($order);
+		header('Location: /gamezone/index.html');
+
 	}elseif(isset($_POST['actualizar'])){
 		$order->setId($_POST['id']);
 		$order->setFirstName($_POST['firstName']);
