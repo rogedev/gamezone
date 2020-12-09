@@ -68,7 +68,7 @@
 
 			</ul>
 		</div>
-		<a class="carrito" href="order.php target="_blank">
+		<a class="carrito" href="order.php" target="_blank">
 			<svg width="4em" height="2em" viewBox="0 0 16 16" class="bi bi-bag" fill="white"
 				xmlns="http://www.w3.org/2000/svg">
 				<path fill-rule="evenodd"
@@ -80,7 +80,7 @@
 		<div class="video-wrap">
 			<div id="videobg">
 				<video id="bg" autoplay loop muted playsinline>
-					<source src="media/video/videobgconsoles.mp4" alt="Video de videojuegos">
+					<source src="media/video/videobgconsoles.mp4" loading="lazy" alt="Video de videojuegos">
 				</video>
 			</div>
 		</div>
@@ -112,12 +112,14 @@
 				<div class="card shadow">
 					<div class="inner">
 						<a href="https://www.youtube.com/watch?v=0tUqIHwHDEc" target="_bank">
-							<img class="card-img-top" src="media/img/consolas/xbox.jpeg" alt="Xbox Series X">
+							<img class="card-img-top" src="media/img/consolas/xbox.jpeg"  loading="lazy" alt="Xbox Series X">
 						</a>
 					</div>
 					<div class="card-body">
 						<h1 class="card-title">$499.99</h1>
-						<form action="" method="post">
+						<form action="crud/control.php" method="post">
+							<input hidden name="name" type="text" value="xbox">
+							<input hidden name="price" type="number" value="499.99">
 							<div class="input-group">
 								<div class="input-group-prepend">
 									<label class="input-group-text" for="inputGroupSelect01">Cantidad</label>
@@ -147,12 +149,14 @@
 				<div class="card shadow">
 					<div class="inner">
 						<a href="https://www.youtube.com/watch?v=RkC0l4iekYo" target="_bank">
-							<img class="card-img-top" src="media/img/consolas/ps5.jpg" alt="Play Station 5">
+							<img class="card-img-top" src="media/img/consolas/ps5.jpg" loading="lazy" alt="Play Station 5">
 						</a>
 					</div>
 					<div class="card-body">
 						<h1 class="card-title">$499</h1>
-						<form action="" method="post">
+						<form action="crud/control.php" method="post">
+							<input hidden name="name" type="text" value="play">
+							<input hidden name="price" type="number" value="499.99">
 							<div class="input-group">
 								<div class="input-group-prepend">
 									<label class="input-group-text" for="inputGroupSelect01">Cantidad</label>
@@ -182,12 +186,14 @@
 				<div class="card shadow">
 					<div class="inner">
 						<a href="https://www.youtube.com/watch?v=f5uik5fgIaI" target="_bank">
-							<img class="card-img-top" src="media/img/consolas/nswitch.jpg" alt="Nintendo Switch">
+							<img class="card-img-top" src="media/img/consolas/nswitch.jpg" loading="lazy" alt="Nintendo Switch">
 						</a>
 					</div>
 					<div class="card-body">
 						<h1 class="card-title">$499</h1>
-						<form action="" method="post">
+						<form action="crud/control.php" method="post">
+							<input hidden name="name" type="text" value="switch">
+							<input hidden name="price" type="number" value="499.99">
 							<div class="input-group">
 								<div class="input-group-prepend">
 									<label class="input-group-text" for="inputGroupSelect01">Cantidad</label>
