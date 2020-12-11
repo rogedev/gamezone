@@ -195,12 +195,12 @@ nav.navbar {
 	.imgorder {
 		position: relative;
 		left: 30%;
-		width: 200px;
-		height: 200px;
+		width: 250px;
+		height: 250px;
 	}
 	.banner .btn-lg {
 
-		left: 25%;
+		left: 27%;
 		top: 40%;
 	}
 }
