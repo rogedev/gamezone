@@ -1,0 +1,65 @@
+body {
+	font-family: 'Kumbh', sans-serif;
+	background-color: black;
+}
+
+.box {
+	background-color: #fff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 70%;
+	height: 70%;
+	transform: translate(-50%, -50%);
+	font-size: 3em;
+	text-align: center;
+	align-items: center;
+}
+
+.box-header {
+	position: relative;
+	top: 10%;
+}
+
+.box-content {
+	position: relative;
+	top: 60%;
+}
+
+.box-img {
+	position: relative;
+	top: 5%;
+
+}
+
+.box-img img {
+	width: 20%;
+	height: 20%;
+}
+
+.btn {
+	outline: none;
+	position: absolute;
+	top: 85%;
+	left: 42%;
+	text-decoration: none;
+	font-size: 1em;
+	border: solid 5px #000;
+	color: #000;
+}
+
+@media(max-width: 767px) {
+	.box {
+		font-size: 2em;
+		height: 90%;
+	}
+
+	.box-img {
+		top: 15%;
+	}
+
+	.box-img img {
+		width: 50%;
+		height: 50%;
+	}
+}

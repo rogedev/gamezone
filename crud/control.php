@@ -25,7 +25,7 @@ $product = new Product();
         $order->setEmail($_POST['email']);
         $order->setAddress($_POST['address']);
 		$crud->insertar($order);
-		header('Location: /gamezone/index.html');
+		header('Location: /gamezone/thank-you.html');
 
 	}elseif(isset($_POST['actualizar'])){
 		$order->setId($_POST['id']);
