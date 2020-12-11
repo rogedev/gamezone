@@ -76,7 +76,7 @@ nav.navbar {
 @media (max-width: 768px) {
 	.navbar-brand {
 		position: absolute;
-		left: 38%;
+		left: 31%;
 		top: 10px;
 	}
 
@@ -187,4 +187,9 @@ nav.navbar {
 	.imgorder {
 		left: 5%;
 	}
+#myTab .nav-item {
+
+	font-size: 1em;
+
+}
 }
