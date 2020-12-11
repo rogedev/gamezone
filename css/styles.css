@@ -97,7 +97,6 @@ nav.navbar {
 	}
 
 	.caption .btn-lg {
-
 		font-size: 1.5rem;
 	}
 
@@ -110,13 +109,7 @@ nav.navbar {
 }
 
 
-@media (max-width: 400px) {
-	.carrito {
-		position: absolute;
-		left: 75%;
-		top: 10px;
-	}
-}
+
 
 /*accesorios */
 #myTab {
@@ -192,4 +185,22 @@ nav.navbar {
 	font-size: 1em;
 
 }
+}
+@media (max-width: 400px) {
+	.carrito {
+		position: absolute;
+		left: 75%;
+		top: 10px;
+	}
+	.imgorder {
+		position: relative;
+		left: 30%;
+		width: 200px;
+		height: 200px;
+	}
+	.banner .btn-lg {
+
+		left: 25%;
+		top: 40%;
+	}
 }

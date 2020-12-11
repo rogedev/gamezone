@@ -77,7 +77,7 @@ $product = new Product();
     </nav>
     <main id="order">
         <div class="jumbotron">
-            <div class="container-fluid">
+            <div class="container">
                 <img class="imgorder" src="media/img/favicon.png" alt="Game zone">
             </div>
         </div>
