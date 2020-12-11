@@ -5,11 +5,10 @@ require_once('order.php');
 require_once('product.php');
 require_once('cart.php');
 
-$crud=  new Crud();
+$crud =  new Crud();
 $order = new Order();
 $product = new Product();
 
-//este c
 
 	if (isset($_POST['insertar'])) {
 		$order->setFirstName($_POST['firstName']);
@@ -45,7 +44,6 @@ $product = new Product();
 		header('Location: actualizar.php');
 
 	}elseif(isset($_POST['agregar'])){
-		//para agregar al carrito
 
 		$product->setName($_POST['name']);
         $product->setPrice($_POST['price']);
