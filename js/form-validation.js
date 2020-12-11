@@ -2,7 +2,7 @@
   'use strict'
 
   window.addEventListener('load', function () {
-  //recibimos en nombre de la clase del formulario a validar
+    //recibimos en nombre de la clase del formulario a validar
     var forms = document.getElementsByClassName('needs-validation')
 
     // cramos un loop para prevenir el envio de datos vacios o invalidas
