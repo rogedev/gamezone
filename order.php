@@ -153,8 +153,8 @@ $product = new Product();
     <hr class="featurette-divider">
     <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2020 GameZone, Inc. &middot; <a href="https://www.instagram.com/roge.dev/?hl=es-la"
-                target="_blank">Instagram</a> &middot; <a href="https://twitter.com/rogedev"
+        <p>&copy; 2020 GameZone, Inc. &middot; <a href="#"
+                target="_blank">Instagram</a> &middot; <a href="#"
                 target="_blank">Twitter</a>&middot;</p>
     </footer>
     <script src="js/form-validation.js"></script>
