@@ -1,5 +1,5 @@
 <?php
-//class for generate a new item on the cart
+
 class Product{
 
     public $name;
